@@ -1,0 +1,615 @@
+*,*::befor,*::after {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  background: rgba(0,0,0,.90);
+  font-family: arial;
+}
+.menu{
+  display: flex;
+/*   transform: rotate(-90deg); */
+  position: relative;
+  left: 0px;
+  top: -40px;
+}
+.menu a{
+  margin: 5px 5px;
+  padding-top: 10px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background: white;
+  transition: all 1s;
+}
+.menu a:nth-child(1) {
+  transition: all 1s;
+}
+.menu a:nth-child(1):hover,
+.menu a:nth-child(2):hover,
+.menu a:nth-child(3):hover
+{
+  background: #e8491d;
+  position: relative;
+  top: 34px;
+}
+
+.menu-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.menu-text p {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px
+}
+
+
+html {
+
+
+  scroll-behavior: smooth;
+
+  transition: 0.4s;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 1.3em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #e8491d;
+  outline: 1px solid slategrey;
+}
+
+body{
+
+
+
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 15px;
+	line-height: 1,5;
+	color: grey;
+	margin: 0 ;
+	padding: 0;
+	text-align: center;
+
+}
+
+.container{
+
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+header{
+	height: 100vh;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./iii/chris.jpg);
+
+	 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+	
+	color: #ffffff;
+	padding-top: 30px;
+	
+	border-bottom: grey 1px solid;
+}
+header a{
+
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul {
+
+	margin: 0;
+	padding: 0;
+}
+header li a:hover{
+
+	color: #e8491d;
+}
+header li{
+
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header  #brand{
+
+	float: left;
+}
+
+header #brand h1{
+
+
+
+	position:absolute;
+	
+
+
+}
+
+header .ekuqe, header .aktive a {
+
+	color:#e8491d;
+
+	font-weight: bold;
+}
+
+header nav{
+margin-top: 30px;
+	float: right;
+
+}
+#text{
+	margin:0 auto;
+	margin-top: 190px;
+}
+#text p{
+
+    color: white;
+	font-size: 30px;
+}
+
+
+
+
+ .btn {
+
+    
+ 	border: 1px solid darkgrey;
+ 	padding: 10px 30px;
+ 	margin-right: 5px;
+ 	text-transform: uppercase;
+ 	transition: 0.5s;
+ }
+ 
+
+.btn:hover{
+	cursor: pointer;
+	background: #e8491d;
+	border: 1px solid #e8491d;
+	color:white; 
+	transition: 0.5s;
+	
+	
+}
+
+
+.cco{
+
+	transition: 0.9s;
+	
+}
+
+.color{
+
+	background: darkgrey;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: 1px solid grey;
+}
+.f{
+
+	width: 50%;
+	float: left;
+}
+
+.color{
+
+	height: 100px;
+}
+.f p{
+
+	font-size: 20px;
+}
+#ff #btn{
+position: absolute;
+	margin-top: 10px;
+	text-decoration: none;
+	padding: 8px 40px;
+	border: 1px solid grey;
+	background: grey; 
+	color: white;
+	transition: 0.4s;
+}
+#ff #btn:hover{
+
+	background: #e8491d;
+	border: 1px solid #e8491d;
+	transition: 0.4s;
+}
+.card{
+	display: flex;
+	width: 100%;
+	height: 93vh;
+	background: #fff;
+}
+.img{
+
+	background: black;
+	width:36.5%;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+#img{
+
+	background-image: url(./iii/1_hd.jpg);
+
+
+}
+
+#img1{
+	background-image: url(./iii/Christina+Aguilera+2012+NCLR+ALMA+Awards+Show+h7-KtK4y9P4l.jpg);
+}
+
+#img2{
+	background-image: url(./iii/large.jpg);
+}
+#img3{
+	background-image: url(./iii/4690858959_01320b9763_b.jpg);
+}
+#img4{
+	background-image: url(./iii/Christina+Aguilera+2006+MTV+Video+Music+Awards+1hWUuieErj1l.jpg);
+}
+
+
+.card-content{
+	text-align: left;
+
+	padding: 10% 5%;
+	box-sizing: border-box;
+	width: 63.5%;
+	background: #010101;
+    border-bottom: 1px solid grey;
+
+}
+
+.card-theme{
+text-align: left;
+	font-weight: 900;
+	font-size: 1.7vmin;
+	text-transform: uppercase;
+	font-family: all;
+	letter-spacing: 10px;
+	color: grey;
+
+}
+
+
+
+.card-header{
+	text-align: left;
+
+	font-weight: 700;
+	font-size: 34px;
+	text-transform: capitalize;
+	line-height: 0.91;
+	margin: 3vmin 0 3.5vmin;
+	color: #fff;
+	font-family: all;
+
+	
+}
+.main{
+text-align: left;
+	font-weight: 1.6vmin;
+	font-size: 1.8;
+	text-transform: none;
+	line-height: 1.8;
+	margin-bottom: 2.5vmin;
+	color: #fff;
+	font-family: all;
+	
+	
+}
+
+
+.array #arra{
+
+	float: right;
+
+	color: grey;
+	margin-top: 150px;
+	font-family: all;
+	font-size: 35px;
+	transition: 0.5s;
+}
+.array #arra:hover {
+	cursor: pointer;
+	color: #e8491d;
+	transition: 0.5s;
+	animation:ease ;
+
+	}
+
+.card-link{
+
+border: 1px solid grey;
+width: 60px;
+padding: 10px 50px;
+	color: #fff;
+	font-family: all;
+	font-size: 1.7vmin;
+	display: block;
+	opacity: 0.7;
+	font-weight: bold;
+	transition: opacity 0.3s ease;
+	transition: 0.3s;
+
+
+}
+
+.card-link:hover{
+
+	background-color: #e8491d;
+    color: white;
+    font-weight: bold;
+	border: 1px solid #e8491d;
+	transform: scale(1);
+	transition: 0.3s;
+	
+
+}
+
+.card-content a {
+
+	text-decoration: none;
+}
+
+.collor{
+
+	height: 200px;
+	background: darkgrey;
+}
+
+#pick #btn{
+
+	color: white;
+	border: 1px solid grey;
+	transition: 0.7s;
+	background: grey;
+	padding: 5px 25px;
+	transition: 0.7s;
+	font-size: 13px;
+	
+
+}
+
+#pick #btn:hover{
+    cursor: pointer;
+	border: 1px solid #e8491d;
+	background: #e8491d;
+    color: white;
+	transition: 0.7s;	
+	
+
+
+}
+
+#pick{
+
+	width:24%;
+	float: left;
+
+}
+
+#pick p a {
+	text-decoration: none;
+}
+#pick p{
+
+	margin-top: 80px;
+
+}
+footer{
+
+	height: auto;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(./iii/845995.jpg);
+
+	padding-bottom: 50px;
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+}
+#icons{
+	padding-top: 40px;
+	margin-bottom: 30px;
+
+}
+ 
+#icons .fa {
+
+	text-decoration: none;
+	  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+color: white;
+transition: 0.7s;
+
+}  
+#icons .fa:hover {
+transition: 0.7s;
+transform: rotate(360deg);
+	color: #e8491d;
+	
+	
+	}
+
+#sub input[type="email"]{
+
+	padding: 4px;
+	height: 30px;
+	width: 250px;
+	text-align: center;
+}
+
+#sub .buton{
+
+	height: 40px;
+	background: #e8491d;
+	border: 1px solid #e8491d;
+	color:#ffffff;
+	font-family: 'Baloo Bhai', cursive;
+	transition: 0.4s;
+}
+#sub .buton:hover{
+
+	height: 40px;
+	background: grey;
+	border: 1px solid grey;.
+	transition: 0.4s;
+	color: white;
+}
+
+
+	
+#sub {
+	margin-bottom:50px; 
+}
+
+#by p{
+	color:white;
+	text-transform: unset;
+	font-size: 12px;
+}
+#by .aktive{
+	color: #e8491d;
+}
+
+.vertica {
+margin-left: 330px;
+	height: 110px;
+	width: 1px;
+	background:grey;
+	margin-top: -80px;
+	
+
+}
+
+@media screen and (min-width:375px) and (max-width:667px){
+
+
+header{
+height: 75vh;
+
+}
+
+	#brand {
+
+		display:none;
+
+	}
+#text p{
+
+	font-size: 15px;
+}
+.color{
+
+	display: none;
+}
+.array{
+
+	display: none;
+
+}
+.card-theme{
+
+	letter-spacing: 2px;
+    margin-top: -10px;
+	font-size: 13px;
+}
+.card-link{
+
+	font-size: 12px;
+}
+.card{
+	height: auto;
+}
+#pick #btn{
+
+	padding: 5px 8px;
+	
+
+}
+#pick{
+
+	width:100%;
+	
+
+}
+#pick p{
+ 
+ margin-top: 12px;
+	}
+.vertica{
+	display: none;
+}
+
+#icons .fa {
+ font-size: 14px;
+width: 3px;
+margin: 5px 1px;
+}
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width: 1024px){
+
+
+
+.card-theme{
+
+	letter-spacing: 6px;
+    margin-top: -30px;
+	font-size: 16px;
+}
+.card-link{
+
+	font-size: 12px;
+}
+.card{
+	height: auto;
+}.f{
+
+	width: 40%;
+	float: left;
+	margin-left: 50px;
+}
+.f p{
+
+	text-align: justify;
+	margin-top: -0px;
+}
+.vertica{
+	margin-left: 180px;
+}
+}

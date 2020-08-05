@@ -1,0 +1,760 @@
+
+body::-webkit-scrollbar {
+    width: 1.3em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #e8491d;
+  outline: 1px solid slategrey;
+}
+
+
+
+
+body{  
+
+
+    font-family: 'Baloo Bhai', cursive;
+	font-size: 15px;
+	line-height: 1,5;
+	margin: 0 ;
+	padding: 0;
+	text-align: center;
+
+}
+
+.container{
+
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+header{
+	
+	
+	color: #ffffff;
+    height: 70px;
+	border-bottom: #e8491d 3px solid;	
+
+}
+header a{
+
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul {
+
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+color: grey;
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header  #brand{
+
+	float: left;
+	margin-top: -10px;
+}
+header li a{
+	color: grey;
+}
+
+header #brand h1{
+	color: grey;
+
+	position:absolute;
+	
+
+
+}
+
+header .ekuqe, header .aktive a {
+
+	color:#e8491d;
+
+	font-weight: bold;
+}
+
+header nav{
+
+margin-top: 25px;
+	float: right;
+
+}
+
+
+
+html {
+
+overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  transition: 0.4s;
+}
+.cco #box{
+	margin-bottom: 30px;
+margin-left: 40px;
+	margin-top: 90px;
+	width: 20%;
+	float: left;
+}
+.cco #box img{
+
+	width: 50%;
+	height: auto;
+	transition: 0.3s;
+
+
+}
+.cco #box img:hover{
+    
+   transform: scale(1.1);
+	opacity: 0.6;
+	transition: 0.3s;
+	animation: spin 3s;
+
+}
+/*@keyframes spin{
+
+	from{
+
+		transform: rotate(0deg);
+	}
+
+	to{
+		transform: rotate(360deg);
+
+	}
+}
+*/
+.cco #box p{
+	color: grey;
+	font-family: Ariel, Helvetica, sans-serif;
+}
+.cco #box h3{
+	color: grey;
+}
+#c{
+	margin-top: -20px;
+
+	background: #f6f6f6;
+	padding-bottom: 50px;
+}
+
+.con{
+
+		transition: 1s;
+
+
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+
+.con p
+{
+
+	font-size: 20px;
+	color: grey;
+}
+
+
+
+.con #boox{
+transition: 1s;
+	margin-top: 30px;
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+
+
+}
+
+.con #boox p{
+text-align: justify;
+	font-size: 15px;
+	font-family: Ariel, Helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+.con #boox img{
+transition: 1s;
+	width: 99%;
+	
+}
+.con #boox video{
+width: 100%;
+transition: 0.3s;
+
+}
+.con #boox video:hover{
+
+	transition: 0.3s;
+ 
+ 
+}
+
+.con #boox a {
+
+	color: grey;
+}
+.con #boox .btn {
+   
+ 	border: 1px solid darkgrey;
+ 	padding: 10px 30px;
+ 	background: darkgrey;
+ 	margin-right: 5px;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	transition: 0.5s; 
+ }
+ 
+
+.con #boox .btn:hover{
+	
+	cursor: pointer;
+	border: 1px solid #e8491d;
+	color:white;
+	background: #e8491d;
+	transition: 0.5s; 
+}
+.con  a{
+
+	text-decoration: none;
+}
+.co {
+
+	margin-top: -10px;
+	transition: 0.9s;
+}
+.co p
+{
+
+	font-size: 20px;
+	color: grey;
+
+	text-transform: uppercase;
+
+}
+.cono{
+
+	transition: 0.9s;
+}
+
+.conn #card{
+background: white;
+
+margin-left: 3px;
+   width:24.4%;
+     margin-top: 20px;
+     border: 1px solid  grey;
+     box-shadow: 0px 0px 4px grey;
+    float: left;
+     margin-bottom: 20px;
+     overflow: hidden;
+ 
+}
+#ccc{
+padding-bottom: 40px;
+	
+}
+
+.conn #card:hover{
+     cursor: pointer;
+}
+.conn #card img{
+
+    transition: 0.2s;
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.conn #card img:hover{
+	cursor: pointer;
+	
+	transform: scale(1.1);
+	transition: 0.2s;
+	opacity: 0.9;
+}
+
+.conn #card p {
+	font-family: all;
+	padding: 5px;
+	margin-top: -20px;
+
+	font-size: 15px;
+}
+.conn #card h3 {
+
+	margin-top: 6px;
+	}
+
+#coc {
+transition: 1s;
+	background: #f6f6f6;
+	padding-bottom: 50px;
+}
+.co #other{
+	transition: 1s;
+
+	margin-top: 20px;
+
+	width: 49%;
+	float: left;
+
+	margin-left: 
+	
+}
+
+.co #other img{
+width: 100%;
+}
+
+.co #other p{
+font-family: Ariel, Helvetica, sans-serif;
+	text-align: justify;
+	text-transform: unset;
+
+	font-size: 15px;
+}
+
+.co #otherr{
+	transition: 1s;
+	margin-top: 20px;
+float: right;
+
+	width: 49%;
+}
+
+.co #otherr p{
+	text-transform: unset;
+
+	text-align: justify;
+
+	font-size: 15px;
+	font-family: Ariel, Helvetica, sans-serif;
+}
+.co #otherr img{
+width: 100%;
+}
+
+
+
+.cc{
+transition: 1s;
+	margin: 0 auto;
+}
+.cc ul{
+
+	display: flex;
+    flex-wrap: wrap;
+	text-decoration: none;
+
+	
+	} 
+.cc li{
+
+    width: 32%;
+	list-style-type: none;
+	float: left;
+}
+.cc li img{
+
+	width: 100%;
+	
+
+}
+
+.im li .card p{
+
+	margin-top: 20px;
+
+}
+
+.im li .card {
+
+	 position:absolute;
+	 margin-top: -340px; 
+	 color: white; 
+    
+	 background:  grey; 
+	 width: 24.7%; 
+	 height: 50.4%; 
+	 opacity: 0.0; 
+	 
+}
+.cc li img:hover{
+
+	opacity: 1;
+
+}
+
+.im :hover .card{
+
+    transition: 0.3s;
+	opacity: 0.8;
+}
+
+
+.im .fa{
+	
+	border: 1px solid white;
+	width: 11%;
+	padding: 9px 0px;
+	border-radius: 50%;
+	margin-right: 5px;
+	color: white;
+
+	text-decoration: none;
+    z-index: 1111;
+}
+
+.im .fa:hover{
+
+	transition: 0.5s;
+	transform: scale(1.3);
+	color: white;
+	background:  #e8491d;
+	cursor: pointer;
+	border: 1px solid  #e8491d;
+
+	}
+
+.more{
+
+  
+  margin-bottom: 90px;
+  margin-right: 750px;
+  margin-top: -83px;
+}
+.more a{
+
+  text-decoration: none;
+  color: grey;
+}
+.more p a{
+
+padding: 8px 50px;
+background: grey;
+border: 1px solid grey;
+color: white;
+transition: 0.5s;
+}
+.more p a:hover{
+
+	background: #e8491d;
+	border: 1px solid #e8491d;
+	transition: 0.5s;
+}
+.vertical{
+  position: relative;
+
+background:grey;
+  height: 100px;
+  width: 1px;
+  margin-left:  320px;
+  margin-top: 40px;
+}
+.ttt{
+
+  float: left;
+  margin-top: 60px;
+  margin-left: 100px;
+  color: grey;
+  
+}
+
+
+
+
+
+footer{
+
+
+	height: auto;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(./iii/845995.jpg);
+	padding-bottom: 50px;
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+#icons{
+	padding-top: 40px;
+
+	margin-bottom: 30px;
+
+}
+ 
+#icons .fa {
+
+	text-decoration: none;
+	  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+color: white;
+transition: 0.7s;
+
+}  
+#icons .fa:hover {
+
+transition: 0.7s;
+transform: rotate(360deg);
+	color: #e8491d;
+	
+	}
+
+#sub input[type="email"]{
+
+	padding: 4px;
+	height: 30px;
+	width: 250px;
+	text-align: center;
+}
+
+#sub .buton{
+
+	height: 40px;
+	background: #e8491d;
+	border: 1px solid #e8491d;
+	color:#ffffff;
+	font-family: 'Baloo Bhai', cursive;
+}
+#sub .buton:hover{
+
+	height: 40px;
+	background: grey;
+	border: 1px solid grey;
+	color: white;
+}
+
+
+	
+#sub {
+	margin-bottom:50px; 
+}
+
+#by p{
+	color:white;
+	text-transform: unset;
+	font-size: 12px;
+}
+#by .aktive{
+	color: #e8491d;
+}
+
+
+
+
+@media  (max-width: 1320px){
+
+	.ttt,
+	.vertical{
+
+		display: none;
+	}
+.more p{
+
+	margin-top: 160px;
+	
+}
+
+.im :hover .card{
+
+	display: none;
+	}
+
+	@media  (max-width: 800px){
+
+		
+		.con{ width: 100%;
+
+			margin-left: 26px;
+		}
+		.con #boox .btn {
+   
+ 	border: 1px solid darkgrey;
+ 	padding: 4px 20px;
+ 	margin-right: 5px;
+ 	text-transform: uppercase;
+ }
+
+	}
+@media  (max-width: 1020px){
+
+
+	.con #boox{
+
+			width: 45%;
+		}
+
+.con #boox p {
+
+	text-align: justify;
+
+	font-size: 13px;
+}
+
+
+ #icons .fa {
+font-size: 20px;
+width: 20px;
+}
+.ttt,
+	.vertical{
+
+		display: none;
+	}
+.container #box{
+
+	width: 40%;
+
+	margin-left: 50px;
+}
+.container #box p{
+	font-size: 12px;
+}
+.container #box h3{
+	font-size: 15px;
+}
+.container #box img{
+
+	width: 50%;
+}
+}
+@media (max-width: 750px){
+	.con #card {
+
+		width: 80%;
+		margin-left: 40px;
+	}
+	.ttt,
+	.vertical{
+
+		display: none;
+	}
+.more p{
+
+	margin-top: 160px;
+
+	margin-left: 155px;
+}
+.con #boox img{
+
+	width: 70%;
+}
+.con #boox video{
+
+	width: 70%;
+}
+.con #boox video:hover{
+	transform: scale(1);
+}
+
+.more p a:hover{
+
+border: 1px solid #e8491d;
+  background:  #e8491d;
+  color: white;
+  transition: 0.2s;
+
+
+	}
+.con #p{
+
+	margin-left: -35px;
+}
+
+#icons .fa {
+font-size: 16px;
+width: 10px;
+}
+#by p{
+font-size: 10px;
+}
+#brand{
+	display: none;
+}
+header nav {
+
+	margin-right: 45px;
+}
+.container #box p{
+	font-size: 13px;
+}
+.container #box h3{
+	font-size: 15px;
+}
+.container #box img {
+
+	width: 40%;
+}
+.container #box{
+
+width: 80%;
+
+margin-left: 35px;
+}
+
+.con #boox {
+	width: 80%;
+	margin-left: 25px;
+}
+.co #other {
+
+	width: 90%;
+
+	margin-left: 20px;
+}
+.co #other{
+
+	margin-top: -10px;
+}
+.co #other img {
+
+	width: 80%;
+}
+.co #other p{
+text-transform: unset;
+	font-size: 13px;
+}
+.co #otherr{
+	width: 90%;
+	margin-right: 20px;
+}
+.co #otherr img{
+
+width: 80%;
+}
+#cris .con  p{
+
+	font-size: 11px;
+}
+.co #otherr p{
+
+	font-size: 13px;
+
+	text-transform: unset;
+}
+
+
+.im :hover .card{
+	display: none;
+}
+
